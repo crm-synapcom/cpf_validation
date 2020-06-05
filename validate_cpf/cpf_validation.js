@@ -13,7 +13,7 @@ function validateCPF(cpf) {
 		cpf == "77777777777" || 
 		cpf == "88888888888" || 
 		cpf == "99999999999")
-        return false;		
+        	return false;		
 	// validate first digit	
 	add = 0;	
 	for (i=0; i < 9; i ++)		
