@@ -1,5 +1,5 @@
 function validateCPF(cpf) {	
-	var cpf = String(cpf).replace(/[^\d]+/g,'');	
+	cpf = String(cpf).replace(/[^\d]+/g,'');	
 	if(cpf == '') return false;	
 	// eliminates invalid cpfs	
 	if (cpf.length != 11 || 
